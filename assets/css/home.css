@@ -1,0 +1,61 @@
+nav{
+    height: 20vh;
+    background-image: url('https://images.pexels.com/photos/4737484/pexels-photo-4737484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    
+}
+
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    background-image: url('https://i.ibb.co/GvrMnJw/latest-cb-20190106010010.jpg');
+    /* background-image: url('https://i.ibb.co/LZmGDVK/Manifest-1-e1623667562606.png'); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: wheat;
+  }
+  
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.content form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    /* background-color: aquamarine; */
+    width: 70%;
+    font-size: 2rem;
+}
+.content form select{
+    height: 5vh;
+    width: 60%;
+    background-color: transparent;
+}
+
+.content form button{
+             background-color: transparent;
+             padding: 1%;
+             
+}
+.content form button:hover{
+    box-shadow: 10px 5px 22px 0px rgb(1, 11, 17);
+}
+
+.content form option{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
